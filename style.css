@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #786452;
+    text-align: center;
+}
+/* F7DAD9 */
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game-board{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border-style: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    font-size: 8vmin;
+    color: #786452;
+    background-color: #CEB5AC;
+}
+
+.reset-button{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}                                                   
+.msg-container{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    color: #CEB5AC;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.New-Game-button{
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}  
+
+
+.o-color {
+    color: #57473e;
+}
+
+.x-color {
+    color: #871528;
+}
